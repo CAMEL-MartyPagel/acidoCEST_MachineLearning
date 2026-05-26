@@ -1,0 +1,150 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=PagelLab
+$$ 2023-07-14 08:47:17.987 -0500  PagelLab@CZC4170WSK
+$$ /opt/PV6.0.1/data/PagelLab/lucas_1_2_20230714_081159/25/pdata/1/reco
+$$ process /opt/PV6.0.1/prog/bin/parxserver
+##$RECO_mode=USER_MODE
+##$RecoAutoDerive=No
+##$RecoDim=2
+##$RecoObjectsPerRepetition=1
+##$RecoObjectsPerSetupStep=64
+$$ @vis= RECO_mode RecoAutoDerive RecoDim RecoObjectsPerRepetition
+##$RecoNumRepetitions=36
+##$RECO_inp_order=NO_REORDERING
+##$RECO_inp_size=( 2 )
+64 64
+$$ @vis= RecoObjectsPerSetupStep RecoNumRepetitions RECO_inp_order
+##$RECO_ft_size=( 2 )
+64 64
+##$RECO_fov=( 2 )
+3.84 3.84
+##$RECO_size=( 2 )
+64 64
+##$RECO_offset=( 2, 1 )
+0 0
+##$RECO_regrid_mode=NO_REGRID
+##$RECO_regrid_offset=0
+##$RECO_ramp_gap=0
+##$RECO_ramp_time=0
+##$RECO_ne_mode=NO_NAV_DATA
+##$RECO_ne_dist=NeNoInterleave
+##$RECO_ne_dens=NeCorrPerScan
+##$RECO_ne_type=NAV_PHASE
+##$RECO_bc_mode=( 2 )
+NO_BC NO_BC
+##$RECO_bc_start=( 2 )
+48 48
+##$RECO_bc_len=( 2 )
+16 16
+##$RECO_dc_offset=( 2 )
+0 0
+##$RECO_dc_divisor=1
+##$RECO_bc_coroff=( 2 )
+0 0
+##$RECO_qopts=( 2 )
+COMPLEX_CONJUGATE NO_QOPTS
+##$RECO_wdw_mode=( 2 )
+NO_WDW NO_WDW
+##$RECO_lb=( 2 )
+-0.5 -0.5
+##$RECO_sw=( 2 )
+100000 1
+##$RECO_gb=( 2 )
+0.5 0.5
+##$RECO_sbs=( 2 )
+1 1
+##$RECO_tm1=( 2 )
+0.25 0.25
+##$RECO_tm2=( 2 )
+0.75 0.75
+##$RECO_ft_mode=( 2 )
+COMPLEX_FT COMPLEX_FT
+$$ @vis= RECO_inp_size RECO_ft_size RECO_fov RECO_size RECO_wdw_mode
+##$RECO_pc_mode=( 2 )
+FIRST_ORDER_PC FIRST_ORDER_PC
+##$RECO_pc_lin=( 2 )
+(0, 180) (0, 180)
+##$RECO_rotate=( 2, 1 )
+0.5 0.5
+##$RECO_ppc_mode=NO_PPC
+##$RECO_ref_image=0
+##$RECO_nr_supports=0.4
+##$RECO_sig_threshold=0.15
+##$RECO_ppc_degree=1
+##$RECO_ppc_coeffs=( 1, 2, 2 )
+0 0 0 0
+##$RECO_dc_elim=Yes
+##$RECO_transposition=( 1 )
+0
+##$RECO_image_type=MAGNITUDE_IMAGE
+$$ @vis= RECO_ft_mode RECO_pc_mode RECO_pc_lin RECO_rotate RECO_transposition
+##$RECO_image_threshold=0.15
+##$RECO_ir_scale=10
+##$RECO_wordtype=_16BIT_SGN_INT
+##$RECO_map_mode=ABSOLUTE_MAPPING
+##$RECO_map_range=( 2 )
+-2147483647 2147483647
+##$RECO_map_percentile=( 2 )
+1 99.9
+##$RECO_map_error=0.025
+##$RECO_byte_order=littleEndian
+##$RecoUserUpdate=Yes
+$$ @vis= RECO_image_type RECO_wordtype RECO_map_mode RECO_byte_order
+##$RecoReverseSegment=0
+##$RecoB0DemodOff=0
+##$RecoB0DemodDelay=0
+##$RecoFTOrder=( 2 )
+0 1
+##$RecoHalfFT=( 2 )
+No No
+##$RecoHalfFTPos=( 2 )
+32 32
+$$ @vis= RecoUserUpdate RecoB0DemodOff RecoWindow RecoFTOrder RecoHalfFT
+##$RecoCorrPhase=RecoCorrPhaseOff
+##$RecoCorrPhaseRef=-1
+##$RECO_map_user_slope=1
+##$RECO_map_user_offset=0
+##$RecoNumInputChan=1
+$$ @vis= RecoHalfFTPos RecoCorrPhase RecoCorrPhaseRef RecoMap
+##$RecoScaleChan=( 1 )
+1
+##$RecoPhaseChan=( 1 )
+0
+##$RecoCombineMode=SumOfSquares
+##$RecoSortDim=1
+$$ @vis= RecoNumInputChan RecoScaleChan RecoPhaseChan RecoCombineMode
+##$RecoSortSize=( 1 )
+64
+##$RecoSortRange=( 1 )
+64
+##$RecoSortSegment=( 1 )
+0
+##$RecoSortMaps=( 64 )
+32 31 33 30 34 29 35 28 36 27 37 26 38 25 39 24 40 23 41 22 42 21 43 20 44 19 
+45 18 46 17 47 16 48 15 49 14 50 13 51 12 52 11 53 10 54 9 55 8 56 7 57 6 58 
+5 59 4 60 3 61 2 62 1 63 0
+$$ @vis= RecoSortDim RecoSortSize RecoSortRange RecoSortSegment RecoSortMaps
+##$RecoGrappaAccelFactor=1
+##$RecoGrappaKernelRead=0
+##$RecoGrappaKernelPhase=0
+##$RecoGrappaNumRefRead=0
+##$RecoGrappaNumRefPhase=0
+##$RecoGrappaIncludeRefLines=Yes
+##$RecoGrappaReadCenter=0
+##$RecoGrappaPhaseCenter=0
+##$RecoGrappaTruncThresh=-1
+##$RecoRegridN=Off
+$$ @vis= RecoSortGroup RecoGrappaAccelFactor RecoGrappaGroup RecoRegridN
+##$GS_reco_display=Yes
+##$GO_reco_display=Yes
+$$ @vis= RecoRegridNGroup RecoStageGroup RecoModeUser GS_reco_display RECO_GS
+##$GO_reco_each_nr=No
+##$GO_max_reco_mem=0
+##$RecoPrototype=No
+$$ @vis= GO_reco_display GO_reco_each_nr GO_max_reco_mem RECO_GO
+$$ @vis= RecoPrototype RECO
+##END=
+$$ File finished by PARX at 2023-07-14 08:47:17.988 -0500

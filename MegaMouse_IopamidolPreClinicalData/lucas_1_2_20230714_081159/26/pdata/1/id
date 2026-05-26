@@ -1,0 +1,12 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=PagelLab
+$$ 2023-07-14 08:47:19.623 -0500  PagelLab@CZC4170WSK
+$$ /opt/PV6.0.1/data/PagelLab/lucas_1_2_20230714_081159/26/pdata/1/id
+$$ process /opt/PV6.0.1/prog/bin/parxserver
+##$DATASET_KEY=( 65 )
+<2.16.756.5.5.100.8323328.3473.1689342439.236>
+##END=
+$$ File finished by PARX at 2023-07-14 08:47:19.623 -0500
